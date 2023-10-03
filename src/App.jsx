@@ -1,13 +1,13 @@
 
 import Rodape from './components/Footer'
-import Lista from './components/lista'
+import Cabecalho from './components/Cabecalho/Cabecalho'
 import { Outlet } from 'react-router-dom';
 
 export default function App(){
 
   return(
     <>
-      <Lista />
+      <Cabecalho/>
         <Outlet/>
       <Rodape />
       
